@@ -2,6 +2,8 @@ import './App.css';
 import Statefull from "./components/Statefull"
 import { Stateless } from "./components/Stateless"
 import React from "react"
+import {HelloBool} from "./components/Bools"
+import Props from "./components/Props"
 
 // he creado mi custom hook mi rimer custom hook
 const useDaniela = (numero) => {
@@ -20,6 +22,8 @@ function App() {
         <Statefull name={setmelo} />
         <h1>{varriablo}</h1>
         <Stateless name={setmelo} />
+        <HelloBool></HelloBool>
+    <Props name="daniela" age={19}></Props>
       </header>
     </div>
   );
